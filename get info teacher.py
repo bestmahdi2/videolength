@@ -35,5 +35,5 @@ for dirpath, dirnames, filenames in walk(source):
 # print(duration)
 
 
-print("\nFull time: {}".format(str(int(timedelta(seconds=duration)))))
+print("\nFull time: {}".format(str(timedelta(seconds=duration))))
 input()
